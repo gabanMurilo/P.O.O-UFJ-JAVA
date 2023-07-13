@@ -1,17 +1,14 @@
 public class Disciplina {
     private String disciplina;
     private int cargaHoraria;
-    private String professor;
 
-    public Disciplina(String disciplina, int cargaHoraria, String professor) {
+    public Disciplina(String disciplina, int cargaHoraria) {
         this.disciplina = disciplina;
         this.cargaHoraria = cargaHoraria;
-        this.professor = professor;
     }
     Disciplina() {
         this.disciplina = "";
         this.cargaHoraria = 0;
-        this.professor = "";
     }
     public String getDisciplina() {
         return this.disciplina;
@@ -25,10 +22,9 @@ public class Disciplina {
     public void setCargaHoraria(int cargaHoraria) {
         this.cargaHoraria = cargaHoraria;
     }
-    public String getProfessor() {
-        return this.professor;
+
+    public String toString() {
+        return "Disciplina: %s\nCarga Horária: %d\n".formatted(getDisciplina(), getCargaHoraria());
     }
-    public void setProfessor(String professor) {
-        this.professor = professor;
-    }
+
 }
