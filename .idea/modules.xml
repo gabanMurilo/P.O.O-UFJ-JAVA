@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Trabalho_2/Cardapio_RU/Cardapio_RU.iml" filepath="$PROJECT_DIR$/Trabalho_2/Cardapio_RU/Cardapio_RU.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-1/src/ex-1.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-1/src/ex-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-10/ex-10.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-10/ex-10.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-2/ex-2.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-2/ex-2.iml" />
