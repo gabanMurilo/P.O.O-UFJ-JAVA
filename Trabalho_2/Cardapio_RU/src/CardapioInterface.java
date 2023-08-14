@@ -3,7 +3,7 @@ import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CardapioInterface extends JFrame {
+public class CardapioInterface extends Dia {
     private Map<String, String> cardapioDiario;
 
     private JComboBox<String> diasSemana;
