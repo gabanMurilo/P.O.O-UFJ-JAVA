@@ -1,9 +1,7 @@
 import java.time.Instant;
 import java.util.Date;
-import java.util.Scanner;
 
 public  class Dia extends Cardapio{
-    Scanner input = new Scanner(System.in);
     private String dia;
     private Date data;
     private String refeicao;
