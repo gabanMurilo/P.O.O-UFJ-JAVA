@@ -1,7 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,7 +18,6 @@ public class CardapioInterface extends JFrame {
     private JTextField frutaField;
     private JTextField sucoField;
     private JTextArea cardapioTextArea;
-    private JDialog dialog;
 
     public CardapioInterface() {
         cardapioDiario = new HashMap<>();
@@ -45,6 +42,16 @@ public class CardapioInterface extends JFrame {
                     folhasField.getText(), legumeField.getText(), frutaField.getText(), sucoField.getText());
             cardapioDiario.put(dia, cardapio);
             updateCardapioTextArea();
+            diasSemana.getSelectedItem();
+            dataField.setText("");
+            arrozField.setText("");
+            feijaoField.setText("");
+            carneField.setText("");
+            vegetarianaField.setText("");
+            folhasField.setText("");
+            legumeField.setText("");
+            frutaField.setText("");
+            sucoField.setText("");
         });
 
         cardapioTextArea = new JTextArea(10, 30);
@@ -99,11 +106,6 @@ public class CardapioInterface extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new CardapioInterface();
-            }
-        });
+        SwingUtilities.invokeLater(() -> new CardapioInterface());
     }
 }
