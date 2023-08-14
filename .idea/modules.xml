@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_2/Cardapio_RU/Cardapio_RU.iml" filepath="$PROJECT_DIR$/Trabalho_2/Cardapio_RU/Cardapio_RU.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-1/src/ex-1.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-1/src/ex-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-10/ex-10.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-10/ex-10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-2/ex-2.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-2/ex-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-3/ex-3.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-3/ex-3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-4/ex-4.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-4/ex-4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-5/ex-5.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-5/ex-5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-6/ex-6.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-6/ex-6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-7/ex-7.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-7/ex-7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-8/ex-8.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-8/ex-8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/ex-9/ex-9.iml" filepath="$PROJECT_DIR$/Trabalho_1/ex-9/ex-9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trabalho_1/Trabalho_1.iml" filepath="$PROJECT_DIR$/Trabalho_1/Trabalho_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trabalho_2/Trabalho_2.iml" filepath="$PROJECT_DIR$/Trabalho_2/Trabalho_2.iml" />
     </modules>
   </component>
 </project>

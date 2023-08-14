@@ -1,9 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CardapioInterface extends Dia {
+public class CardapioInterface extends JFrame{
     private Map<String, String> cardapioDiario;
 
     private JComboBox<String> diasSemana;
