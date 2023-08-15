@@ -4,9 +4,8 @@ import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CardapioInterface extends JFrame{
+public class CardapioInterface extends JFrame {
     private Map<String, String> cardapioDiario;
-
     private JComboBox<String> diasSemana;
     private JTextField dataField;
     private JComboBox<String> refeicaoField;
@@ -41,9 +40,9 @@ public class CardapioInterface extends JFrame{
             String cardapio = String.format("Data: %s-%s \nArroz: %s\nFeijão: %s\nCarne: %s\nVegetariana: %s\nFolhas: %s\nLegume: %s\nFruta: %s\nSuco: %s",
                     dataField.getText(), refeicaoField.getSelectedItem(), arrozField.getText(), feijaoField.getText(), carneField.getText(), vegetarianaField.getText(),
                     folhasField.getText(), legumeField.getText(), frutaField.getText(), sucoField.getText());
+            diasSemana.getSelectedItem();
             cardapioDiario.put(dia, cardapio);
             updateCardapioTextArea();
-            diasSemana.getSelectedItem();
             dataField.setText("");
             arrozField.setText("");
             feijaoField.setText("");
@@ -89,7 +88,7 @@ public class CardapioInterface extends JFrame{
         Container contentPane = getContentPane();
         contentPane.setLayout(new BorderLayout());
         contentPane.add(panel, BorderLayout.WEST);
-        contentPane.add(scrollPane, BorderLayout.EAST);
+        contentPane.add(scrollPane, BorderLayout.CENTER);
 
         setTitle("Cardápio do Restaurante Universitário");
         pack();
