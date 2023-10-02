@@ -1,3 +1,4 @@
+//componente concreto
 public class CardapioFactoryImpl implements CardapioFactory {
     @Override
     public Cardapio criarCardapio() {
