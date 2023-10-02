@@ -23,6 +23,10 @@ public class Cardapio {
         this.suco = suco;
     }
 
+    public Cardapio() {
+
+    }
+
     //Getters e Setters
     public String getArroz() {return arroz;}
     public void setArroz(String arroz) {
